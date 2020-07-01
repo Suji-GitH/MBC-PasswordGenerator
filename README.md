@@ -29,9 +29,6 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 
 ## Source and Folder Structure
-Application Url - https://suji-gith.github.io/MBC-Assignments/Assignment-3/Rdm-PassGen
-
-GitHub Url - https://github.com/Suji-GitH/MBC-Assignments/tree/master/Assignment-3
 
 <h3>Folder Structure</h3>
 Parent Folder - Assignment 3
@@ -62,13 +59,13 @@ The middle button which is semi hidden coloured in black will change colour when
 
 ## Application Screenshot
 Landing Page
-<img src = "../Assignment-3/assets/img/Screenshots/LandingPage.jpg">
+<img src = "./assets/img/Screenshots/LandingPage.jpg">
 Confirm prompt
-<img src = "../Assignment-3/assets/img/Screenshots/ConfirmPrompt.jpg">
+<img src = "./assets/img/Screenshots/ConfirmPrompt.jpg">
 Password Generated 
-<img src = "../Assignment-3/assets/img/Screenshots/PassGen.jpg">
+<img src = "./assets/img/Screenshots/PassGen.jpg">
 Password generated when Middle button is clicked
-<img src = "../Assignment-3/assets/img/Screenshots/PassGen-pBtn.jpg">
+<img src = "./assets/img/Screenshots/PassGen-pBtn.jpg">
 
 
 ## Pseudo Code
