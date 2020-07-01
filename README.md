@@ -1,5 +1,11 @@
 # Random Password Generator
 
+## Application & Repository Link
+
+###### [Application Link](https://suji-gith.github.io/MBC-PasswordGenerator/Rdm-PassGen.html)
+
+###### [Repository Link](https://github.com/Suji-GitH/MBC-PasswordGenerator)
+
 ## Overview
 AS AN employee with access to sensitive data
 I WANT to randomly generate a password that meets certain criteria
