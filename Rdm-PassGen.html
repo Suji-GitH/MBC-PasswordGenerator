@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+
+    <!-- Fav icon -->
+    <link rel="icon" type="image/x-icon" href="../assets/img/Detectivefavicon.ico"/>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Own CSS  -->
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+
+<body>
+
+    <!--Matrix background -->
+    <canvas id="c"></canvas>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-sm-12 mx-auto">
+                <div class="content">
+                    <!-- Textarea for generated password -->
+                    <div class="input-group mb-3">
+                        <textarea class="form-control" aria-label="With textarea"
+                            placeholder="Use the slider to select how many characters you like your password to be and select the blue or red pill to talk to Morpheus"
+                            readonly="true"></textarea>
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button" id="copyBtn">Copy</button>
+                        </div>
+                    </div>
+
+                    <!-- Morpheus image -->
+                    <img src="../Assignment-3/assets/img/MorpheusChair.png" class="morpheus" alt="Morpheus Options">
+
+                    <!-- Slider -->
+                    <input type="range" min="8" max="128" value="8" class="slider" id="myRange">
+                    <p>Value: <span id="demo"></span></p>
+
+                    <!-- buttons -->
+                    <div class="row buttons">
+                        <div class="col">
+                            <button type="button" id="bBtn">Generate</button>
+                        </div>
+
+                        <div class="col">
+                            <button type="button" id="pBtn">Generate</button>
+                        </div>
+
+                        <div class="col">
+                            <button type="button" id="rBtn">Generate</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Link to javascript -->
+    <script type="text/javascript" src="../assets/js/script.js"></script>
+
+</body>
+
+</html>
